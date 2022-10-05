@@ -46,3 +46,30 @@ body {
   color: var(--title-color);
   font-size: 48px;
 }
+
+#work-container {
+  margin: 142px;
+}
+
+.card-rounded {
+  border-radius: 24px !important;
+}
+
+.card-title {
+  font-size: 40px;
+}
+
+.card-btn {
+  border: 1px solid var(--primary-color) !important;
+  color: var(--primary-color) !important;
+}
+
+.card-btn:hover{
+  background-color: var(--primary-color) !important;
+  color: #fff !important;
+}
+
+.btn-techs {
+  background-color: var(--simple-color) !important;
+  color: var(--primary-color) !important;
+}
