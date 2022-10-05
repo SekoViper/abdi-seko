@@ -63,6 +63,10 @@ body {
   border: 1px solid var(--primary-color) !important;
   color: var(--primary-color) !important;
 }
+.contact-btn {
+  background-color: #fff !important;
+  color: var(--primary-color) !important;
+}
 
 .card-btn:hover{
   background-color: var(--primary-color) !important;
@@ -89,4 +93,16 @@ body {
 .about-title {
   font-size: 40px;
   color: var(--abstract-color);
+}
+
+#contact-section {
+  background-color: var(--primary-color);
+  background-image: url(../img/contact_form_background_shape.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 846px;
+  padding: 142px 330px 127px 330px;
+  color: #fff;
+  border-top-left-radius: 100px;
 }
