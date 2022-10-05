@@ -73,3 +73,20 @@ body {
   background-color: var(--simple-color) !important;
   color: var(--primary-color) !important;
 }
+
+.skill-item {
+  background-color: var(--general-color);
+  width: 122px;
+  height: 120px;
+}
+
+.about-container {
+  background-color: #fff;
+  padding: 142px;
+  border-top-right-radius: 100px;
+}
+
+.about-title {
+  font-size: 40px;
+  color: var(--abstract-color);
+}
