@@ -44,7 +44,7 @@ body {
 
 .hero-title {
   color: var(--title-color);
-  font-size: 48px;
+  font-size: 48px !important;
 }
 
 #work-container {
@@ -68,7 +68,7 @@ body {
   color: var(--primary-color) !important;
 }
 
-.card-btn:hover{
+.card-btn:hover {
   background-color: var(--primary-color) !important;
   color: #fff !important;
 }
@@ -105,4 +105,35 @@ body {
   padding: 142px 330px 127px 330px;
   color: #fff;
   border-top-left-radius: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-section {
+    padding: 2px 3px !important;
+  }
+
+  .hero-container {
+    padding: 110px 24px !important;
+  }
+
+  #hero-section {
+    background-image: url(../img/header-shapes\ mobile.png);
+    height: 90vh !important;
+  }
+
+  #contact-section {
+    background-image: url(../img/contact\ form\ shapes-mobile.svg);
+    padding: 102px 24px 7px 24px;
+    color: #fff;
+    border-top-left-radius: 100px;
+    background-position-x: right;
+  }
+
+  .about-container {
+    padding: 114px 24px;
+  }
+
+  #work-container {
+    margin: 114px 12px;
+  }
 }
